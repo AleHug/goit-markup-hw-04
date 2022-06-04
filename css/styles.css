@@ -78,13 +78,16 @@ body {
   color: var(--accent-fouhrt-color);
 }
 
-.navi-link:hover,
-.navi-link:focus,
+.header-evelope-icon:hover,
+.header-evelope-icon:focus,
 .heder-mail:hover,
 .heder-mail:focus,
+.header-tel-icon:hover,
+.header-tel-icon:focus,
 .heder-tel:hover,
 .heder-tel:focus {
   color: var(--accent-second-color);
+  fill: var(--accent-second-color);
 }
 
 .title {
@@ -122,12 +125,18 @@ body {
   align-items: center;
 }
 
+.logo-header-link {
+  margin-right: 93px;
+}
+
 .navi-intem:not(:last-child) {
   margin-right: 50px;
 }
 
 .heder-mail,
 .heder-tel {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -135,12 +144,24 @@ body {
   color: var(--accent-third-color);
 }
 
-.header-intem:not(:last-child) {
-  margin-right: 50px;
+.header-evelope-icon {
+  padding: 0 0;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--accent-third-color);
 }
 
-.logo-header-link {
-  margin-right: 93px;
+.header-tel-icon {
+  padding: 0 0;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--accent-third-color);
+}
+
+.header-intem:not(:last-child) {
+  margin-right: 50px;
 }
 
 .heder-list {
